@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/freekode/Dropbox/devel/exchange/src/node/views/templates/Exchange/partials/charts'
+let g:netrw_dirhist_2='/home/freekode/Dropbox/devel/exchange/src/node/views/templates/Exchange/partials/charts/candlestick'
+let g:netrw_dirhist_3='/home/freekode/Dropbox/devel/exchange/src/node_modules/check-order'
+let g:netrw_dirhist_4='/home/freekode/Dropbox/devel/exchange/src/node_modules/get-rate'

@@ -1,0 +1,21 @@
+altscreen on
+autodetach on
+defbce on
+vbell off
+defutf8 on 
+hardstatus off
+startup_message off
+defscrollback 10240
+
+caption string "%?%F%{= Bk}%? %C%A %D %d-%m-%Y %{= kB} %t%= %?%F%{= Bk}%:%{= wk}%? %n "
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+
+#bindkey ^[[1;3D prev
+#bindkey ^[[1;3C next
+
+screen -t loc
+screen -t thr
+screen -t for
+
+select 0
